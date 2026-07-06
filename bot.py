@@ -50,8 +50,8 @@ WELCOME_BANNER = os.path.join(os.path.dirname(__file__), "images", "welcome_bann
 PAYMENT_INSTRUCTIONS = (
     "🏦 *Bank Transfer*\n"
     "Account Name: Nescosign Media Ltd\n"
-    "Account Number: 0123456789\n"
-    "Bank: (Your Bank Name)\n\n"
+    "Account Number: 012311789\n"
+    "Bank: (contact support)\n\n"
     "💳 Or pay via your preferred method and send proof of payment here.\n\n"
     "Once you've paid, tap *\"I've Paid\"* below and our team will confirm "
     "your booking within a few hours."
