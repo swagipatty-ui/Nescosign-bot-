@@ -1,5 +1,5 @@
 # ======================================================================
-# GLOBALSPOT — by Affirmative Group / YUYU Ads
+# GLOBALSPOT 
 # Interactive Telegram brokerage bot for international OOH/billboard spots
 # ======================================================================
 #
@@ -70,11 +70,11 @@ from telegram.ext import (
 # CONFIG
 # ----------------------------------------------------------------------
 
-BOT_TOKEN = os.environ.get("GLOBALSPOT_BOT_TOKEN", "PUT_YOUR_NEW_REVOKED_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("NESCOSIGN_BOT_TOKEN", "PUT_YOUR_NEW_REVOKED_TOKEN_HERE")
 
-ADMIN_CONTACT_USERNAME = os.environ.get("GLOBALSPOT_ADMIN_USERNAME", "@your_yuyu_username")
-ADMIN_CONTACT_PHONE = os.environ.get("GLOBALSPOT_ADMIN_PHONE", "+234 800 000 0000")
-ADMIN_CHAT_ID = os.environ.get("GLOBALSPOT_ADMIN_CHAT_ID", "")  # numeric telegram id, leads get forwarded here if set
+ADMIN_CONTACT_USERNAME = os.environ.get("NESCOSIGN_ADMIN_USERNAME", "@your_yuyu_username")
+ADMIN_CONTACT_PHONE = os.environ.get("NESCOSIGN_ADMIN_PHONE", "+234 800 000 0000")
+ADMIN_CHAT_ID = os.environ.get("NESCOSIGN_ADMIN_CHAT_ID", "")  # numeric telegram id, leads get forwarded here if set
 
 BROKERAGE_MARKUP = 0.10  # your 10% on top of every base vendor price
 
@@ -96,7 +96,7 @@ ASK_NAME, ASK_CONTACT, ASK_DATES, ASK_NOTES = range(4)
 # ----------------------------------------------------------------------
 
 def marked_up(amount: int) -> int:
-    """Apply YUYU's 10% brokerage margin on top of the base vendor price."""
+    """Apply the 10% brokerage margin on top of the base vendor price."""
     return round(amount * (1 + BROKERAGE_MARKUP))
 
 
