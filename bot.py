@@ -1,5 +1,4 @@
-"""
-LUMENSPOT — Billboard & OOH Advertising Telegram Bot (with images)
+"""NIMARSIGN — Billboard & OOH Advertising Telegram Bot (with images)
 ====================================================================
 Interactive Telegram bot for browsing and "reserving" billboard / DOOH ad
 placements around the world. Built with python-telegram-bot v20+.
